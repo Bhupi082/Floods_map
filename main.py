@@ -7,10 +7,10 @@ from datetime import date
 # Initialize Earth Engine
 # ==============================================
 try:
-    ee.Initialize(project='ee-bhupendrarulekiller14')
+    ee.Initialize(project='flood-map-476206')
 except Exception as e:
     ee.Authenticate()
-    ee.Initialize(project='ee-bhupendrarulekiller14')
+    ee.Initialize(project='flood-map-476206')
 
 # ==============================================
 # Helper Functions
